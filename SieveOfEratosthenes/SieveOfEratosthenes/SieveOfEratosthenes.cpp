@@ -14,8 +14,6 @@ using namespace std;
 int* Sieve(int);
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    
     int n;
     cout << "Enter n: ";
     cin >> n;
@@ -31,6 +29,7 @@ int main(int argc, const char * argv[]) {
     
     cout << endl << "Number of Primes: " << count << endl;
     
+    delete[] nums;
     
     return 0;
 }
